@@ -1,0 +1,8 @@
+:root {
+  /* Container sizes */
+  --main-container: 1110px;
+  --main-height: 500px;
+
+  /* Column sizes */
+  --main-width-size-column: 450px;
+}
