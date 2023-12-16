@@ -1,6 +1,11 @@
 import styles from "./styles.module.css";
-import img from "../../assets/teste.png";
 import { Button } from "../Buttons";
+
+import img_business from "../../assets/desenvolvimento-de-estrategia.png";
+import img_midia from "../../assets/marketing.png";
+import img_analise from "../../assets/analitico.png";
+import img_social from "../../assets/midia-social.png";
+import img_bonus from "../../assets/e-book.png";
 
 export const Resume = () => (
   <section className={styles.section}>
@@ -9,30 +14,41 @@ export const Resume = () => (
     </span>
     <main className={styles.main}>
       <section className={styles.card}>
-        <img className={styles.img} src={img} alt="" />
-        <p>Bullet point 1</p>
+        <img className={styles.img} src={img_business} alt="" />
+        <p className={styles.paragraph}>Gestão de Negócio</p>
       </section>
       <section className={styles.card}>
-        <img className={styles.img} src={img} alt="" />
-        <p>Bullet point 2</p>
+        <img className={styles.img} src={img_social} alt="" />
+        <p className={styles.paragraph}>Gestão de Rede Social</p>
       </section>
       <section className={styles.card}>
-        <img className={styles.img} src={img} alt="" />
-        <p>Bullet point 3</p>
+        <img className={styles.img} src={img_midia} alt="" />
+        <p className={styles.paragraph}>Marketing de Conteúdo</p>
       </section>
     </main>
+    <div className={styles.main}>
+      <section className={styles.card}>
+        <img className={styles.img} src={img_analise} alt="" />
+        <p className={styles.paragraph}>Análise de Resultados</p>
+      </section>
+    </div>
     <span className={styles.span}>
       <h2>E você ainda receberá de brinde</h2>
       <div className={styles.main}>
         <section className={styles.card}>
-          <img className={styles.img} src={img} alt="" />
-          <p>Bônus 1</p>
+          <img className={styles.img} src={img_bonus} alt="" />
+          <p className={styles.paragraph}>
+            Material bônus no final da leitura!
+          </p>
         </section>
       </div>
     </span>
     <span className={styles.span}>
-      <h3 className={styles.h3}>DE PREÇO REAL POR PREÇO PROMOCIONAL</h3>
+      <h3 className={styles.h3}>
+        DE <strong className={styles.strong}>R$87,50</strong> POR PREÇO{" "}
+        <strong className={styles.strong}>R$25,50!</strong>
+      </h3>
     </span>
-    <Button paragraph="CTA" link="#" />
+    <Button paragraph="Sim! Quero receber o material agora!" link="#" />
   </section>
 );

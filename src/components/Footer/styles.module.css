@@ -1,6 +1,6 @@
 .footer {
   max-width: var(--main-container);
-  margin: 25px auto;
+  margin: 25px auto 0 auto;
   text-align: center;
   padding: 25px;
 }
@@ -11,8 +11,23 @@
 
 .title {
   font-weight: bold;
+  color: var(--main-text-color);
+}
+
+.paragraph {
+  color: var(--main-text-color);
 }
 
 .main {
   margin: 15px 0;
+}
+
+.background {
+  width: 100%;
+  background: rgb(11, 13, 106);
+  background: linear-gradient(
+    123deg,
+    rgba(11, 13, 106, 1) 43%,
+    rgba(13, 13, 157, 1) 77%
+  );
 }

@@ -8,9 +8,20 @@
   padding: 15px;
 }
 
+.background {
+  background: rgb(11, 13, 106);
+  background: linear-gradient(
+    123deg,
+    rgba(11, 13, 106, 1) 43%,
+    rgba(13, 13, 157, 1) 77%
+  );
+}
+
 @media (max-width: 650px) {
   .header {
     flex-direction: column-reverse;
+    height: 800px;
+    padding: 50px;
   }
 }
 
@@ -29,12 +40,23 @@
 
 .image {
   height: 350px;
-  width: 450px;
-  background-color: rgb(211, 211, 211);
+  width: 350px;
 }
 
 @media (max-width: 650px) {
   .image {
     margin-bottom: 15px;
   }
+}
+
+.h1 {
+  color: var(--main-text-color);
+  max-width: 550px;
+}
+
+.h2 {
+  color: var(--second-text-color);
+  max-width: 450px;
+  font-weight: 400;
+  margin-top: 10px;
 }

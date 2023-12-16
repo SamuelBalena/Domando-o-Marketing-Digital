@@ -13,7 +13,7 @@ export const Bonus = () => (
       <div className={styles.div}>
         <span className={styles.span_mobile}>
           <h2>Bônus 1</h2>
-          <p>Uma pequena descrição para aumentar o interesse do lead</p>
+          <p>Material atualizado</p>
         </span>
         <img src={photo} alt="" />
       </div>
@@ -21,7 +21,7 @@ export const Bonus = () => (
         <img src={photo} alt="" />
         <span className={styles.span_mobile}>
           <h2>Bônus 2</h2>
-          <p>Uma pequena descrição para aumentar o interesse do lead</p>
+          <p>Material bônus no final da leitura</p>
         </span>
       </div>
     </main>

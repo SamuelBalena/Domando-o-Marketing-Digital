@@ -2,10 +2,14 @@
   border: none;
   padding: 10px 75px;
   cursor: pointer;
+  background-color: var(--main-btn-color);
+  border-radius: 10px;
 }
 
 .paragraph {
   font-weight: bold;
+  color: var(--main-text-color);
+  text-shadow: 1px 1px 1px rgb(129, 129, 129);
 }
 
 @media (max-width: 650px) {

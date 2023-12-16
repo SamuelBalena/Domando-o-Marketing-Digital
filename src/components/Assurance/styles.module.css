@@ -7,6 +7,15 @@
   padding: 25px;
 }
 
+.h2 {
+  font-size: 32px;
+}
+
+.paragraph {
+  max-width: 650px;
+  margin: 10px 0;
+}
+
 @media (max-width: 650px) {
   .section {
     margin: 50px auto;
