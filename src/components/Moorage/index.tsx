@@ -24,7 +24,10 @@ export const Moorage = () => (
       <p className={styles.paragraph}>
         <strong>A escolha é sua e a hora é agora!</strong>
       </p>
-      <Button paragraph="Clique Aqui para Receber o Material Agora!" link="#" />
+      <Button
+        paragraph="Clique Aqui para Receber o Material Agora!"
+        link="https://pay.hotmart.com/G88938240G?off=qmvepzi6"
+      />
     </main>
   </section>
 );

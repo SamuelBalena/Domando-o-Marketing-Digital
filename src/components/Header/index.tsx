@@ -15,7 +15,10 @@ export const Header = () => (
             eficientes e muito mais!
           </h2>
         </span>
-        <Button paragraph="Quero Aprender Agora!" link="#" />
+        <Button
+          paragraph="Quero Aprender Agora!"
+          link="https://pay.hotmart.com/G88938240G?off=qmvepzi6"
+        />
       </main>
       <div>
         <a href="https://storyset.com/work">

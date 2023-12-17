@@ -6,7 +6,7 @@ interface Props {
 }
 
 export const Button = ({ paragraph, link }: Props) => (
-  <a href={link}>
+  <a href={link} target="_blank">
     <button className={styles.btn}>
       <p className={styles.paragraph}>{paragraph}</p>
     </button>

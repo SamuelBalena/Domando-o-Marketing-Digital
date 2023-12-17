@@ -10,7 +10,10 @@ export const Recall = () => (
         Faça como eles, clique no botão abaixo para{" "}
         <strong>tomam decisões rapidamente.</strong>
       </p>
-      <Button paragraph="Quero Mudar Agora!" link="#" />
+      <Button
+        paragraph="Quero Mudar Agora!"
+        link="https://pay.hotmart.com/G88938240G?off=qmvepzi6"
+      />
     </main>
   </section>
 );

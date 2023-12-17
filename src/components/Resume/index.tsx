@@ -49,6 +49,9 @@ export const Resume = () => (
         <strong className={styles.strong}>R$25,50!</strong>
       </h3>
     </span>
-    <Button paragraph="Sim! Quero receber o material agora!" link="#" />
+    <Button
+      paragraph="Sim! Quero receber o material agora!"
+      link="https://pay.hotmart.com/G88938240G?off=qmvepzi6"
+    />
   </section>
 );
